@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp2.1</TargetFramework>
+		<RootNamespace>DataStructures</RootNamespace>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<NuspecFile>DataStructures.nuspec</NuspecFile>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<AssemblyName>DataStructures</AssemblyName>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+</Project>

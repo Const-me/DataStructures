@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+	<metadata minClientVersion="3.4.4">
+		<id>DataStructures</id>
+		<version>0.1.0</version>
+		<authors>const.me</authors>
+		<owners>const.me</owners>
+		<summary>Random general-purpose data structures</summary>
+		<description>So far, IntervalsList class is the only one. Might add more over time, e.g. B+ trees are missing from the standard library as well yet very useful sometimes.</description>
+		<copyright>Copyright © const.me, 2021</copyright>
+		<title>Random general-purpose data structures</title>
+		<projectUrl>https://github.com/Const-me/DataStructures</projectUrl>
+		<repository type="git" url="https://github.com/Const-me/DataStructures.git" />
+		<license type="expression">MIT</license>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<dependencies>
+			<group targetFramework=".NETCoreApp2.1" />
+			<group targetFramework="net472">
+				<dependency id="System.Buffers" version="4.5.1" />
+				<dependency id="System.Memory" version="4.5.4" />
+				<dependency id="System.Numerics.Vectors" version="4.5.0" />
+				<dependency id="System.Runtime.CompilerServices.Unsafe" version="4.5.3" />
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!-- .NET Core -->
+		<file src="bin\Release\netcoreapp2.1\DataStructures.dll" target="lib\netcoreapp2.1" />
+		<file src="bin\Release\netcoreapp2.1\DataStructures.pdb" target="lib\netcoreapp2.1" />
+		<file src="bin\Release\netcoreapp2.1\DataStructures.xml" target="lib\netcoreapp2.1" />
+		<!-- .NET Framework -->
+		<file src="..\DataStructuresNet4\bin\Release\DataStructures.dll" target="lib\net472" />
+		<file src="..\DataStructuresNet4\bin\Release\DataStructures.pdb" target="lib\net472" />
+		<file src="..\DataStructuresNet4\bin\Release\DataStructures.xml" target="lib\net472" />
+	</files>
+</package>

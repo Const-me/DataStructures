@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany( "const.me" )]
 [assembly: AssemblyProduct( "DataStructures" )]
 [assembly: AssemblyCopyright( "Copyright © const.me, 2021" )]
-[assembly: AssemblyCulture( "en-us" )]
+[assembly: AssemblyCulture( "" )]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 [assembly: Guid( "3ab59d34-08d2-444a-9d08-7961cb0c6b07" )]

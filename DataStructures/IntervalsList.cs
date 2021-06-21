@@ -7,10 +7,10 @@ namespace System.Collections.Generic
 	public sealed class IntervalsList<TKey, TValue>:
 		IEnumerable<(TKey, TKey, TValue)>
 	{
-		private TKey[] keys;
-		private TValue[] values;
+		TKey[] keys;
+		TValue[] values;
 		// Count of points in the collections; count of intervals is 1 less than this.
-		private int _size;
+		int _size;
 
 		/// <summary>Defines order of keys in the data structure</summary>
 		public IComparer<TKey> KeyComparer { get; }

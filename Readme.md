@@ -1,4 +1,6 @@
-﻿# DataStructures
+﻿*This project is not actively maintained.*
+
+# DataStructures
 
 .NET standard library is awesome in general, but still, I think a few important pieces are missing.
 
@@ -18,3 +20,9 @@ For this reason, I’ve made a generic solution on top of sorted arrays.
 
 Internally, the data structure is very similar to the [SortedList](https://github.com/dotnet/corefx/blob/master/src/System.Collections/src/System/Collections/Generic/SortedList.cs/)
 from the standard library. I’ve copy-pasted a few lines of code from there, fortunately the MIT license allows that.
+
+### Known Issues
+
+it’s impossible to trim the start of the collection by calling SetInterval with the EmptyValue value.<br/>
+Ideally, this should result in moving the start of the collection forward.<br/>
+In the current implementation, this results in the empty interval at the start, which is less than ideal.

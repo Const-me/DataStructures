@@ -4,9 +4,8 @@
 
 ## IntervalsList
 
-The problem statement is written in [this SO question](https://stackoverflow.com/q/19473671/126995) from 2013.
-
-The problem statement looks trivially simple yet it’s surprisingly difficult to solve in a good way.
+The problem statement is written in [this SO question](https://stackoverflow.com/q/19473671/126995) from 2013.<br/>
+Looks trivially simple yet it’s surprisingly difficult to implement.
 
 The higher-level collection classes 
 ([SortedList](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.sortedlist-2?view=net-5.0),
